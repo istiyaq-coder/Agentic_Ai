@@ -1,0 +1,41 @@
+Utsav Gupta@DESKTOP-CSMQ8M5 MINGW64 ~/Desktop/new folder1 (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Utsav Gupta/Desktop/new folder1/.git/
+
+Utsav Gupta@DESKTOP-CSMQ8M5 MINGW64 ~/Desktop/new folder1 (main)
+$ git add .
+
+Utsav Gupta@DESKTOP-CSMQ8M5 MINGW64 ~/Desktop/new folder1 (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Agentic_Ai (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Utsav Gupta@DESKTOP-CSMQ8M5 MINGW64 ~/Desktop/new folder1 (main)
+$ git add .
+
+Utsav Gupta@DESKTOP-CSMQ8M5 MINGW64 ~/Desktop/new folder1 (main)
+$ git commit -m "prd"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Agentic_Ai (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Utsav Gupta@DESKTOP-CSMQ8M5 MINGW64 ~/Desktop/new folder1 (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
